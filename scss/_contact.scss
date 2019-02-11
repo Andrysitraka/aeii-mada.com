@@ -1,0 +1,79 @@
+.contact {
+    .banniere {
+        background-image: url(../images/about-page.jpg);
+        background-size: cover;
+        height: 300px;
+        padding-top: 100px;
+        .background-caption {
+            text-align: center;
+            h3.titre {
+                position: absolute;
+                right: 0;
+                left: 0;
+                font-size: 3em;
+                color: $couleur-blanc;
+                vertical-align: middle;
+            }
+        }
+    }
+    .formulaire {
+        background-color: #e6e6e6;
+        min-height: 300px;
+        .container {
+            .row {
+                form {
+                    .row {
+                        button {
+                            background-color: $couleur-orange;
+                            border: solid $couleur-orange 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .temoignage {
+        background: $couleur-blue;
+        .container {
+            .titre {
+                h3 {
+                    color: $couleur-dark;
+                }
+                hr {
+                    width: 50%;
+                    border: solid 1px $couleur-orange;
+                }
+            }
+            .content-equipe {
+                .block {
+                    min-height: 340px;
+                    .content-child {
+                        background-color: white;
+                        text-align: center;
+                        //color: $couleur-dark;
+                        img {
+                            right: 0;
+                            left: 0;
+                            margin: auto;
+                            border: 5px solid $couleur-dark;
+                            border-radius: 50%;
+                        }
+                        p.avis {
+                            font-size: 18px;
+                            font-weight: normal;
+                            text-align: justify !important;
+                        }
+                        p.namefilliaire {
+                            font-size: 18px;
+                            font-weight: normal;
+                            color: $couleur-orange;
+                        }
+                        span {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

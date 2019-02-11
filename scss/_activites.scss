@@ -1,0 +1,147 @@
+.page-activites {
+    .banniere {
+        background-image: url(../images/about-page.jpg);
+        background-size: cover;
+        height: 300px;
+        padding-top: 100px;
+        .background-caption {
+            text-align: center;
+            h3.titre {
+                position: absolute;
+                right: 0;
+                left: 0;
+                font-size: 3em;
+                color: $couleur-blanc;
+                vertical-align: middle;
+            }
+        }
+    }
+    .activites-arts {
+        min-height: 300px;
+        .container {
+            .art {
+                h2 {
+                    color: $couleur-blue;
+                    font-size: 24px;
+                }
+                h2::before {
+                    content: url(../images/icon-activites.png);
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 20px;
+                }
+                img {
+                    height: 250px;
+                    overflow: hidden;
+                    max-width: 100%;
+                }
+                button {
+                    background: $couleur-orange;
+                    width: 150px;
+                    color: $couleur-blanc;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .activites-socials {
+        min-height: 300px;
+        background: #e6e6e6;
+        .container {
+            .socials {
+                h2 {
+                    color: $couleur-blue;
+                    font-size: 24px;
+                }
+                h2::before {
+                    content: url(../images/icon-activites.png);
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 20px;
+                }
+                img {
+                    height: 250px;
+                    overflow: hidden;
+                    max-width: 100%;
+                }
+                button {
+                    background: $couleur-orange;
+                    width: 150px;
+                    color: $couleur-blanc;
+                    font-weight: bold;
+                    bottom: 0;
+                }
+            }
+        }
+    }
+    .activites-sports {
+        min-height: 300px;
+        .container {
+            .sports {
+                h2 {
+                    color: $couleur-blue;
+                    font-size: 24px;
+                }
+                h2::before {
+                    content: url(../images/icon-activites.png);
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 20px;
+                }
+                img {
+                    height: 250px;
+                    overflow: hidden;
+                    max-width: 100%;
+                }
+                button {
+                    background: $couleur-orange;
+                    width: 150px;
+                    color: $couleur-blanc;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .articles {
+        background: #e6e6e6;
+        .container {
+            .titre {
+                h3 {
+                    color: $couleur-dark;
+                }
+                hr {
+                    width: 50%;
+                    border: solid 1px $couleur-orange;
+                }
+            }
+            .row {
+                .card {
+                    .card-body {
+                        h4 {
+                            color: $couleur-orange;
+                            font-size: 18px;
+                            font-weight: bold;
+                        }
+                        h4::before {
+                            content: url(../images/icon-article.png);
+                            width: 30px;
+                            height: 30px;
+                            margin-right: 20px;
+                            margin-top: 10px;
+                        }
+                        p {
+                            color: $couleur-dark;
+                            font-size: 16px;
+                            font-weight: normal;
+                        }
+                        a {
+                            color: $couleur-orange;
+                            font-size: 16px;
+                            font-weight: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

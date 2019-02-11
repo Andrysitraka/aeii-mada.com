@@ -1,0 +1,131 @@
+/* objectif page */
+
+.objectif {
+    .banniere {
+        background-image: url(../images/actualites.jpg);
+        background-size: cover;
+        height: 300px;
+        padding-top: 100px;
+        .background-caption {
+            text-align: center;
+            h3.titre {
+                position: absolute;
+                right: 0;
+                left: 0;
+                font-size: 3em;
+                color: $couleur-blanc;
+                vertical-align: middle;
+            }
+        }
+    }
+    .logo {
+        .container {
+            .content {
+                img {
+                    right: 0;
+                    left: 0;
+                    margin: auto;
+                }
+            }
+            .titre {
+                color: $couleur-dark;
+                font-size: 24px;
+                h3:first-child {
+                    font-weight: bold;
+                }
+                h3:last-child {
+                    font-weight: normal;
+                }
+                hr {
+                    width: 50%;
+                    border: solid 1px $couleur-orange;
+                }
+            }
+        }
+    }
+    .objectif-detail {
+        background: $couleur-blue;
+        .container {
+            .row {
+                .images-section {
+                    background-image: url(../images/actualites.jpg);
+                    background-size: cover;
+                    padding-top: 300px;
+                }
+                .text-section {
+                    p {
+                        color: $couleur-blanc;
+                        span {
+                            font-weight: bold;
+                            color: $couleur-dark;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .parcourt {
+        .container {
+            .titre {
+                h3 {
+                    color: $couleur-dark;
+                }
+                hr {
+                    width: 50%;
+                    border: solid 1px $couleur-orange;
+                }
+            }
+            .mentions {
+                .card {
+                    h4 {
+                        font-size: 18px;
+                        color: $couleur-dark;
+                    }
+                    a {
+                        background: $couleur-orange;
+                        border: none;
+                        border-radius: 0;
+                    }
+                }
+            }
+        }
+    }
+    .equipes {
+        background: $couleur-blue;
+        .container {
+            .titre {
+                h3 {
+                    color: #fff;
+                }
+                hr {
+                    width: 50%;
+                    border: solid 1px $couleur-orange;
+                }
+            }
+            .content-equipe {
+                .block {
+                    .content-child {
+                        background: $couleur-blanc;
+                        text-align: center;
+                        color: $couleur-dark;
+                        img {
+                            right: 0;
+                            left: 0;
+                            margin: auto;
+                            border: 5px solid $couleur-dark;
+                            border-radius: 50%;
+                        }
+                        h3 {
+                            font-size: 22px;
+                            font-weight: bold;
+                        }
+                        h4 {
+                            font-size: 18px;
+                            font-weight: normal;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

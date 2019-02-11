@@ -1,0 +1,203 @@
+        @import "_variables.scss";
+        hr {
+            width: 50%;
+            border: solid 1px $couleur-orange;
+        }
+        
+        section.presentation {
+            .logo {
+                padding: 20px 0;
+                img {
+                    position: absolute;
+                    right: 0;
+                    left: 0;
+                    margin: auto;
+                }
+            }
+            .titre {
+                margin: 0 0 !important;
+                padding-top: 60px;
+                padding-bottom: 30px;
+                div {
+                    h3,
+                    h4 {
+                        padding: 0 30px;
+                        color: $couleur-dark;
+                        font-family: tahoma;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        
+        section.introduction {
+            height: auto;
+            background: $couleur-blue;
+            padding: 0px 30px;
+            .container {
+                .row {
+                    .bloc-text {
+                        padding: 30px 30px;
+                        h4 {
+                            font-size: 24px;
+                            color: $couleur-orange;
+                        }
+                        p {
+                            font-size: 16px;
+                            color: $couleur-blanc;
+                            text-align: justify;
+                        }
+                    }
+                    .bloc-image {
+                        background-image: url(../images/Home-page.jpg);
+                        background-size: cover;
+                        overflow: hidden;
+                        min-height: 400px;
+                        padding-right: 20px;
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }
+        
+        section.formation {
+            h3 {
+                color: $couleur-dark;
+                font-size: 24px;
+                line-height: 100%;
+                padding: 20px 0;
+            }
+            .row {
+                .ressource {
+                    h4 {
+                        color: $couleur-dark;
+                        font-size: 18px;
+                        line-height: 100%;
+                        // padding: 0px 20px;
+                    }
+                    h4.ressource::before,
+                    h4.systeme::before,
+                    h4.formation::before {
+                        content: url(../images/icon-article.png);
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 20px;
+                        margin-top: 10px;
+                    }
+                    hr {
+                        width: 50%;
+                        border: solid 1px $couleur-orange;
+                    }
+                    p {
+                        color: $couleur-dark;
+                        font-size: 16px;
+                        text-align: justify;
+                        padding: 10px 0;
+                        padding: 0px 20px;
+                    }
+                }
+                .info {
+                    h4 {
+                        color: $couleur-dark;
+                        font-size: 18px;
+                        line-height: 100%;
+                        //padding: 0px 20px;
+                    }
+                    h4::before {
+                        content: url(../images/icon-article.png);
+                        width: 30px;
+                        height: 30px;
+                        margin-right: 20px;
+                        margin-top: 10px;
+                    }
+                    p {
+                        color: $couleur-dark;
+                        font-size: 16px;
+                        text-align: justify;
+                        padding: 10px 0;
+                        padding: 0px 20px;
+                    }
+                    .mention {
+                        background: #e4e4e5;
+                        color: $couleur-dark;
+                        font-weight: bold;
+                        font-size: 16px;
+                        p {
+                            span {
+                                color: $couleur-orange;
+                                font-weight: bold;
+                                margin-right: 5px;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        section.gallery {
+            padding: 0px 0px!important;
+            .row {
+                margin: 0px 0px;
+                .mentions {
+                    background-image: url(../images/mentions.jpg);
+                    background-size: cover;
+                    height: 400px;
+                    overflow: hidden;
+                    padding-top: 170px;
+                    h4 {
+                        text-align: center;
+                        vertical-align: middle;
+                        color: $couleur-blanc;
+                    }
+                    h5 {
+                        text-align: center !important;
+                        vertical-align: middle;
+                        a {
+                            color: $couleur-blanc;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .actualites {
+                    background-image: url(../images/actualites.jpg);
+                    background-size: cover;
+                    height: 400px;
+                    overflow: hidden;
+                    padding-top: 170px;
+                    h4 {
+                        text-align: center;
+                        vertical-align: middle;
+                        color: $couleur-blanc;
+                    }
+                    h5 {
+                        text-align: center !important;
+                        vertical-align: middle;
+                        a {
+                            color: $couleur-blanc;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .activites {
+                    background-image: url(../images/activites.jpg);
+                    background-size: cover;
+                    height: 400px;
+                    overflow: hidden;
+                    padding-top: 170px;
+                    h4 {
+                        text-align: center;
+                        vertical-align: middle;
+                        color: $couleur-blanc;
+                    }
+                    h5 {
+                        text-align: center !important;
+                        vertical-align: middle;
+                        a {
+                            color: $couleur-blanc;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }

@@ -1,0 +1,95 @@
+@import "_variables.scss";
+body {
+    font-family: Tahoma;
+    a {
+        font-family: Tahoma;
+        font-size: 16px;
+        font-weight: normal;
+    }
+}
+
+header {
+    .navbar {
+        background: $couleur-dark;
+        .container {
+            .navbar-nav {
+                .active {
+                    color: $couleur-dark;
+                }
+                .btn-color:hover {
+                    background: $couleur-orange!important;
+                }
+            }
+        }
+    }
+}
+
+section.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    .carousel {
+        ul {
+            li {
+                cursor: pointer;
+            }
+        }
+        .carousel-inner {
+            .carousel-item {
+                .carousel-caption {
+                    bottom: 30%;
+                    h3 {
+                        font-size: 3em;
+                    }
+                    p {
+                        font-size: 35px;
+                    }
+                    button {
+                        line-height: 100%;
+                        height: 40px;
+                        color: $couleur-blanc;
+                        font-size: 18px;
+                        border: none;
+                        cursor: pointer;
+                        width: 150px;
+                        &.calltoaction1 {
+                            background: $couleur-orange;
+                            margin-right: 10px;
+                        }
+                        &.calltoaction2 {
+                            background: $couleur-blue;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+                @media(max-width:464px) {
+                    .carousel-caption {
+                        bottom: 25%;
+                        h3 {
+                            font-size: 24px;
+                        }
+                        p {
+                            font-size: 20px;
+                        }
+                        button {
+                            line-height: 100%;
+                            height: 40px;
+                            color: $couleur-blanc;
+                            font-size: 18px;
+                            border: none;
+                            cursor: pointer;
+                            width: 150px;
+                            &.calltoaction1 {
+                                background: $couleur-orange;
+                                margin-left: 20px;
+                            }
+                            &.calltoaction2 {
+                                background: $couleur-blue;
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

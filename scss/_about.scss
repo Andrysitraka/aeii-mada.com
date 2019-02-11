@@ -1,0 +1,95 @@
+  /* page qui sommes nous */
+  
+  .about {
+      background-image: url(../images/about-page.jpg);
+      background-size: cover;
+      height: 300px;
+      .background-caption {
+          h3.titre {
+              position: relative;
+              font-size: 3em;
+              color: $couleur-blanc;
+              text-align: center;
+              top: 110px;
+          }
+      }
+  }
+  
+  .description {
+      .container {
+          .row {
+              .text-center {
+                  p {
+                      color: $couleur-dark;
+                      font-family: tahoma;
+                  }
+                  button {
+                      background: $couleur-orange;
+                      height: 40px;
+                      color: $couleur-blanc;
+                      border: none;
+                      padding: 0px 10px;
+                  }
+              }
+          }
+      }
+  }
+  
+  .formation_about {
+      background-color: $couleur-blue;
+      .container {
+          .row {
+              .content-icon {
+                  text-align: center;
+                  img {
+                      right: 0;
+                      left: 0;
+                      margin: auto;
+                  }
+                  h3 {
+                      color: $couleur-dark;
+                      font-size: 18px;
+                      font-weight: bold;
+                      top: 50px;
+                  }
+                  p {
+                      color: $couleur-blanc;
+                  }
+                  a {
+                      color: $couleur-blanc;
+                  }
+              }
+          }
+      }
+  }
+  
+  .effectifs {
+      background-image: url(../images/about-fond.jpg);
+      background-size: cover;
+      min-height: 300px;
+      .container {
+          .row {
+              .professeurs,
+              .mentions,
+              .etudiant {
+                  .content {
+                      background: $couleur-blanc;
+                      height: 200px;
+                      opacity: 0.5;
+                  }
+                  p {
+                      position: absolute;
+                      text-align: center;
+                      color: $couleur-orange;
+                      font-size: 18px;
+                      font-weight: bold;
+                      text-transform: uppercase;
+                      z-index: 10;
+                      top: 100px;
+                      right: 0;
+                      left: 0;
+                  }
+              }
+          }
+      }
+  }
